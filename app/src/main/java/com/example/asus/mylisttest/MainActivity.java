@@ -86,6 +86,8 @@ public class MainActivity extends AppCompatActivity {
 
         listView.setAdapter(adapter);
 
+        listView.setTranscriptMode(ListView.TRANSCRIPT_MODE_ALWAYS_SCROLL);
+
 
         //show detail
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
